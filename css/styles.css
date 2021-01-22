@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btn {
+  background-color: rgb(0, 133, 230);
+  color: white;
+  padding: 10px 25px;
+  font-family: "Poppins", sans-serif;
+}
+.btn:hover {
+  color: white;
+}
+header {
+  padding: 0px 0px;
+}
+nav {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 35px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  z-index: 99999;
+}
+.links_nvv {
+  display: none;
+}
+.links_nvv a {
+  font-size: 1.3rem;
+  color: #aaa;
+  margin: 0px 10px;
+}
+.links_nvv span a {
+  color: rgb(0, 133, 230);
+}
+.nav_bar img {
+  width: 105px;
+}
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.links_nv {
+  display: flex;
+  justify-content: space-around;
+}
+.links_nv span a {
+  color: rgb(0, 133, 230);
+}
+.links_nv a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #aaa;
+  font-family: "Poppins", sans-serif;
+  margin: 0px 10px;
+}
+.links_nv a:hover {
+  border-bottom: 1px solid #aaa;
+}
+.links_nv span a:hover {
+  border-bottom: 1px solid rgb(0, 133, 230);
+}
+/* banner area */
+
+.banner_side {
+  background-color: #fafafa;
+  padding: 100px 0px;
+  position: relative;
+  margin-top: 50px;
+}
+.plant_gg {
+  position: absolute;
+  top: 100%;
+  right: 52%;
+}
+.banner_tt {
+  position: absolute;
+  top: 10%;
+  right: 0%;
+}
+.banner_side h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.banner_side p {
+  width: 40%;
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+  margin: 10px 0px;
+}
+.plant_gg img {
+  width: 250px;
+}
+.laptop {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+}
+.laptop img {
+  width: 250px;
+}
+.slide {
+  margin-top: 50px;
+  text-align: center;
+}
+.slide img {
+  width: 90px;
+}
+.slide p {
+  font-size: 1.1rem;
+}
+.slide .right {
+  border-right: 1px solid #ccc;
+}
+.bkt {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin: 100px 0px;
+}
+.books {
+  text-align: center;
+  padding: 10px 0px;
+}
+.books img {
+  width: 500px;
+}
+.another {
+  border-bottom: 1px solid #ccc;
+}
+.row {
+  padding: 15px 0px;
+  margin: 15px 0px;
+}
+strong {
+  font-size: 2rem;
+}
+.features {
+  text-align: center;
+  background-color: #eee;
+  padding: 10px 0px;
+}
+.ft-img img {
+  width: 90px;
+  margin: 0px 50px;
+}
+.acc {
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* slide */
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+.main__ff {
+  width: 100%;
+  border-right: 1px solid #aaa;
+  padding: 0px 10px;
+}
+.pp_sd {
+  padding: 50px 0px;
+}
+.bk_st {
+  text-align: center;
+  margin: 50px 0px;
+}
+.bkt__st {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bkk {
+  font-size: 1.7rem;
+}
+.book_lk {
+  text-decoration: none;
+  float: left;
+  color: black;
+  font-size: 1rem;
+}
+.bk_wt {
+  text-decoration: none;
+  color: #aaa;
+  float: left;
+}
+.bkt__st img {
+  width: 180px;
+  height: 280px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 18px -5px rgba(0, 0, 0, 1);
+  margin: 15px 0px;
+}
+.col-lg-2 {
+  margin: 10px 15px;
+}
+.pp_sd {
+  text-align: center;
+}
+.text strong {
+  font-size: 2rem;
+}
+.text h1 {
+  font-size: 2rem;
+}
+.hh_gg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px 0px;
+}
+.hand_img {
+  display: flex;
+  margin: 0px 10px;
+  align-content: center;
+}
+.hand_img img {
+  margin: 0px 15px;
+}
+.hh_gg strong {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.hh_gg div {
+  margin: 2px;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+.ft {
+  border-top: 1px solid #ddd;
+  padding: 10px 0px;
+}
+.ft_links {
+  display: flex;
+  flex-direction: column;
+}
+.ft_links a {
+  text-decoration: none;
+  color: #aaa;
+  margin: 6px 0px;
+  font-family: "Poppins", sans-serif;
+}
+.ft_links a:hover {
+  border-bottom: 1px solid rgb(144, 135, 135);
+}
+.ft_pg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ft_pg p {
+  font-family: "Poppins", sans-serif;
+}
+.ft_pg a {
+  display: flex;
+  flex-direction: row;
+}
+.pp_pp {
+  display: flex;
+  flex-direction: row;
+}
+.pp_pp span {
+  width: 1.5px;
+  height: 20px;
+  margin: 10px 5px;
+  background-color: #aaa;
+}
+.ft h4 {
+  font-size: 1.2rem;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icon_ll {
+  text-decoration: none;
+  color: rgb(245, 240, 240);
+}
+.ft i {
+  padding: 10px;
+  color: rgb(245, 240, 240);
+  background-color: rgb(0, 133, 230);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  border: 2px solid rgb(0, 133, 230);
+  margin: 0px 15px;
+}
+.ft i:hover {
+  background-color: white;
+  color: rgb(0, 133, 230);
+  border: 2px solid rgb(0, 133, 230);
+}
+
+/*  responsive website */
+@media only screen and (max-width: 600px) {
+  .col-lg-2 {
+    margin: 0px;
+  }
+  .links_nv {
+    display: none;
+  }
+  .banner_side {
+    background-color: white;
+  }
+  .banner_side p {
+    width: 100%;
+  }
+  .acc {
+    font-size: 1.5rem;
+  }
+  .acc img {
+    width: 100%;
+  }
+  .hh_gg {
+    display: none;
+  }
+  .slide {
+    padding: 0px 50px;
+  }
+  .slide p {
+    font-size: 1rem;
+  }
+  .slide .right {
+    border: none;
+  }
+  .another {
+    border: none;
+  }
+  .features {
+    display: none;
+  }
+  .plant_gg {
+    display: none;
+  }
+  .laptop {
+    display: none;
+  }
+  .coffee_cup {
+    display: none;
+  }
+  .books {
+    display: none;
+  }
+  .bkk {
+    font-size: 1.5rem;
+  }
+  .bkt h2 {
+    font-size: 1.7rem;
+    padding: 10px;
+    text-align: center;
+  }
+  .ph {
+    background-image: url(https://dl.airtable.com/.attachmentThumbnails/d945283bdb9babab26bd7a59889fbe80/a7855eca);
+    height: 650px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .ph_hh {
+    background-image: url(https://dl.airtable.com/.attachmentThumbnails/d945283bdb9babab26bd7a59889fbe80/a7855eca);
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+  }
+  .links_nvv {
+    display: block;
+  }
+  .main {
+    display: block;
+  }
+  .main__ff {
+    width: 100%;
+    border: none;
+  }
+}
